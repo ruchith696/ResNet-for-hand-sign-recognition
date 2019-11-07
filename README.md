@@ -6,9 +6,9 @@ The goal of this project is, given a hand sign image, predict the digit shown in
 ## Quick start :
 * clone or download the model and run resnet.py
     `resnet.py`
-    1. You can train the ResNet on your own.(it took an hour to train the model on 20 epochs using 16gb RAM)
+    1. You can train the ResNet on your own.(it took an hour to train the model on 20 epochs using CPU(16gb RAM))
     2. You can load the model (pretrained)
-    
+ **Note:** code for both training the model or to load model is available, just you need to uncomment 
     
 ## Residual Networks:
 
