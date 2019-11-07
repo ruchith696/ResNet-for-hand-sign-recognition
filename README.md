@@ -21,7 +21,7 @@ The ResNet-50 model consists of 5 stages each with a convolution and Identity bl
                                      
 since X, X_shortcut above are two matrixes, you can add them only if they have the same shape. So if the convolution + batch norm operations are done in a way that the output shape is the same,then we can simply add them as shown above. Otherwise, the x_shortcut goes through a convolution layer chosen such that the output from it is the same dimension as the output from the convolution block as shown below:  
   
-**convolutional Block**
+**convolutional Block:**
 ![](images/convolutional_block.png) 
 
 
